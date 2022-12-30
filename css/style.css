@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: url('../pics/bg-body.jpg') fixed;
+    background-size: cover;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container{
+    margin:0 auto;
+}
+header{
+    background: url('../pics/bg-header.jpg');
+    height: 300px;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    padding: 80px 60px;
+    background-size: cover;
+}
+.content {
+    display: flex;
+}
+nav{
+    padding: 20px;
+    width: 24.9999999%;
+    float:left;
+    background-color: rgb(51, 48 , 48) ;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 10px auto 10px;
+    background-color: rgb(51, 48 , 48);
+}
+ul li{
+    border-bottom: 2px dashed;
+    color: white;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 15px 0;
+}
+li a:hover {
+    background: darkslategrey;
+    color: white;
+}
+main{
+    width:74.9999999%;
+    float:right;
+    background-color: white;
+    padding: 20px 10px;
+}
+span {
+    background-color: rgb(61, 138, 18);
+    margin-left: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 10px;
+    line-break: auto;
+    line-height: 1.8;
+}
+main p{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5rem;
+}
+footer{
+    padding: 10px;
+}
+.jobbra {
+    float: right;
+    padding: 20px 10px 10px 10px;
+    margin-top: 100px;
+}
+.balra {
+    float: left;
+    padding: 20px;
+}
+.left{
+    float: left;
+    box-sizing: content-box;
+    padding-top: 10px;
+}
+.right{
+    float: right;
+    box-sizing: content-box;
+}
+.right a {
+    color: black;
+    
+    display: inline-block;
+    padding: 0 10;
+    text-decoration: underline;
+}
+
+.content::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.balra::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+.jobbra::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+.left::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+.right::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+.main::after {
+    content: "";
+    clear: both;
+    display: table;
+}
